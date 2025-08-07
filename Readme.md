@@ -195,13 +195,9 @@ CREATE TABLE job_descriptions (
 3. Commit + test
 4. Submit PR
 
-## 📄 License
-
-MIT
-
 ## 👥 Authors
 
-- Your Name – Initial work
+- Srajan Shrivastava – Initial work
 - Contributors welcome!
 
 ## 🙏 Acknowledgments
@@ -213,7 +209,7 @@ MIT
 
 ## 📞 Support
 
-- Email: support@resumeranker.ai
+- Email: srajan1611@gmail.com
 - GitHub Issues + Discussions
 
 ---
