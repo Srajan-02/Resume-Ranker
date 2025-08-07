@@ -1,0 +1,85 @@
+/* Custom styles for the Resume Ranker app */
+
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.header-section {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.feature-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    margin: 1rem 0;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.score-display {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+.high-score {
+    background: linear-gradient(45deg, #56ab2f, #a8e6cf);
+    color: white;
+}
+
+.medium-score {
+    background: linear-gradient(45deg, #f093fb, #f5576c);
+    color: white;
+}
+
+.low-score {
+    background: linear-gradient(45deg, #4facfe, #00f2fe);
+    color: white;
+}
+
+.skill-badge {
+    display: inline-block;
+    background: #e3f2fd;
+    color: #1976d2;
+    padding: 0.5rem 1rem;
+    margin: 0.25rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    border: 1px solid #bbdefb;
+}
+
+.result-card {
+    background: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #4ecdc4;
+}
+
+.metric-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.progress-bar {
+    background: #f0f0f0;
+    border-radius: 10px;
+    height: 10px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    background: linear-gradient(90deg, #4ecdc4, #44a08d);
+    height: 100%;
+    transition: width 0.3s ease;
+}

@@ -1,0 +1,21 @@
+Software Engineer - Full Stack
+
+We are looking for a talented Full Stack Developer to join our engineering team. You will be responsible for developing and maintaining web applications using modern technologies.
+
+Requirements:
+- Bachelor's degree in Computer Science or related field
+- 3+ years of experience in full-stack development
+- Proficiency in JavaScript, Python, and SQL
+- Experience with React, Node.js, and Express
+- Knowledge of database design and management
+- Familiarity with cloud platforms (AWS, Azure)
+- Strong problem-solving and communication skills
+- Experience with version control (Git)
+- Understanding of RESTful APIs and microservices
+- Knowledge of containerization (Docker, Kubernetes)
+
+Preferred:
+- Experience with machine learning libraries
+- Knowledge of DevOps practices
+- Familiarity with Agile methodologies
+- Previous startup experience
