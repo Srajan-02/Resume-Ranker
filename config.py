@@ -13,13 +13,13 @@ class Config:
     FREE_LLM_PROVIDER = 'huggingface'  # Options: 'huggingface', 'ollama', 'google'
     
     # Hugging Face Configuration
-    HF_API_TOKEN = os.getenv('Google API key', '')  # Optional, for rate limiting
+    HF_API_TOKEN = os.getenv('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', '')  
     HF_TEXT_MODEL = 'microsoft/DialoGPT-medium'  # Free text generation
     HF_SUMMARIZATION_MODEL = 'facebook/bart-large-cnn'  # For summaries
     HF_TEXT2TEXT_MODEL = 'google/flan-t5-large'  # For general text tasks
     
     # Google Gemini (Free tier available)
-    GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY', '')
+    GOOGLE_API_KEY = os.getenv('AIzaSyD4qFGixAi8bVh4_IFxfq1N6AX21pNoUw8', '')
     
     # Model configurations
     BERT_MODEL = 'sentence-transformers/all-MiniLM-L6-v2'
@@ -33,10 +33,11 @@ class Config:
     DATABASE_PATH = 'database/resume_history.db'
     
     # File upload settings
-    MAX_FILE_SIZE = 10 * 1024 * 1024  # 5MB
+    MAX_FILE_SIZE = 10 * 1024 * 1024  # 10MB
     ALLOWED_EXTENSIONS = ['.pdf', '.txt', '.docx']
     
     # UI settings
     PAGE_TITLE = "AI-Powered Resume Ranker"
 
     PAGE_ICON = "📊"
+
